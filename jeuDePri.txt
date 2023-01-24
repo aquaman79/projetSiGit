@@ -1,5 +1,0 @@
-4 joueurs .
-le joueur propose un prix d'un objet . 
-le joueur qui approche plus a le prix d'objet gagne . 
-
-le joueure gagnant tourne la roue et il va gagner un objet aleaotoire, 
