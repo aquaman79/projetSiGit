@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Chiffrement de César</h1>
+    <label for="plaintext">Texte à chiffrer :</label>
+    <br>
+    <textarea id="plaintext" rows="4" cols="50"></textarea>
+    <br>
+    <label for="shift">Décalage :</label>
+    <br>
+    <input type="number" id="shift" value="3">
+    <br><br>
+    <button onclick="encryptText()">Chiffrer</button>
+    <br><br>
+    <label for="ciphertext">Texte chiffré :</label>
+    <br>
+    <textarea id="ciphertext" rows="4" cols="50"></textarea>
+    <br><br>
+    <button onclick="decryptText()">Déchiffrer</button>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
